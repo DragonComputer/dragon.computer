@@ -266,7 +266,7 @@ a:focus {
     width: 100%;
     padding: 50px 0;
     color: #fff;
-    background: url(../img/downloads-bg.jpg) no-repeat center center scroll;
+    background: url(../img/programming-code_00239902.jpg) no-repeat center center scroll;
     background-color: #000;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -306,17 +306,17 @@ a:focus {
 }
 
 .btn-default {
-    border: 1px solid #ca051f;
-    color: #ca051f;
-    background-color: transparent;
+    border: 0px solid #660000;
+    color: #fff;
+    background-color: #000;
 }
 
 .btn-default:hover,
 .btn-default:focus {
-    border: 1px solid #c96470;
+    border: 0px solid #b40000;
     outline: 0;
-    color: #000;
-    background-color: #c96470;
+    color: #fff;
+    background-color: #b40000;
 }
 
 ul.banner-social-buttons {

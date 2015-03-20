@@ -70,7 +70,7 @@
                         <a class="page-scroll" href="#about">About</a>
                     </li>
                     <li>
-                        <a class="page-scroll" href="#download">Download</a>
+                        <a class="page-scroll" href="#dragonfire">Dragonfire</a>
                     </li>
                     <li>
                         <a class="page-scroll" href="#contact">Contact</a>
@@ -138,15 +138,54 @@
         </div>
     </section>
 
-    <!-- Download Section -->
-    <section id="download" class="content-section text-center">
+    <!-- Contribute Section -->
+    <section id="contribute" class="content-section text-center">
         <div class="download-section">
             <div class="container">
                 <div class="col-lg-8 col-lg-offset-2">
-                    <h2>Download Grayscale</h2>
-                    <p>You can download Grayscale for free on the preview page at Start Bootstrap.</p>
-                    <a href="http://startbootstrap.com/template-overviews/grayscale/" class="btn btn-default btn-lg">Visit Download Page</a>
+                    <h2>Contribute</h2>
+                    <p>Join DragonOS Core team on Launchpad and make contributions for software projects.</p>
+                    <a href="https://launchpad.net/~dragonos" target="_blank" class="btn btn-default btn-lg">Join</a>
                 </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Dragonfire Section -->
+    <section id="dragonfire" class="container content-section text-center">
+        <div class="row">
+            <div class="col-lg-10 col-lg-offset-1" id="divcolvideojs">
+				<h2>Dragonfire</h2>
+				
+				<!-- videojs -->
+				<video id="example_video_2" class="video-js vjs-default-skin vjs-big-play-centered" controls preload="none" poster="img/maxresdefault.jpg" data-setup="{}">
+					<source src="video/Screencast 2015-03-14 17:31:41.mp4" type='video/mp4' />
+					<track kind="captions" src="captions.vtt" srclang="en" label="English" />
+				</video>
+
+				<script type="text/javascript">
+				  // Once the video is ready
+				  videojs("example_video_2").ready(function(){
+
+					var myPlayer = this;    // Store the video object
+					var aspectRatio = 9/16; // Make up an aspect ratio
+
+					function resizeVideoJS(){
+					  // Get the parent element's actual width
+					  var width = document.getElementById("divcolvideojs").offsetWidth;
+					  // Set width to fill parent element, Set height
+					  myPlayer.width(width).height( width * aspectRatio );
+					}
+
+					resizeVideoJS(); // Initialize the function
+					window.onresize = resizeVideoJS; // Call the function on resize
+				  });
+				</script>		
+				<!-- videojs -->
+				<p>
+                <p>Dragon Helmet is a project that aims a computer-aided life for every human on this planet. In today's world we are addicted to smart phones and our expectations from our smart phones are growing each passing day.</p>
+                <p>Everyday a new brilliant product being made by huge companies in all over the world. But none of them has a free platform or none of them is a complete solution for our need to computer in our daily lives.</p>
+                <p>As the exact opposite of these products Dragon Helmet promises for a free software and hardware platform and offers a fully computer-aided life.</p>
             </div>
         </div>
     </section>
