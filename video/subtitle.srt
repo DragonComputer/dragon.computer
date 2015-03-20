@@ -1,0 +1,131 @@
+1
+00:00:02,527 --> 00:00:03,870
+Good afternoon, sir.
+
+2
+00:00:04,581 --> 00:00:06,225
+What is your name?
+
+3
+00:00:06,605 --> 00:00:08,003
+Unrecognized command.
+
+4
+00:00:08,165 --> 00:00:09,963
+What is your name?
+
+5
+00:00:10,512 --> 00:00:12,125
+My name is Dragonfire.
+
+6
+00:00:12,948 --> 00:00:14,023
+Who am I?
+
+7
+00:00:15,336 --> 00:00:17,899
+Your name is Mehmet Mert Yıldıran, sir.
+
+8
+00:00:18,477 --> 00:00:20,477
+What is your gender?
+
+9
+00:00:21,167 --> 00:00:27,627
+I have a female voice, but I don't have a gender identity. I'm a computer program, sir.
+
+10
+00:00:27,643 --> 00:00:29,643
+I'm a girl.
+
+11
+00:00:29,809 --> 00:00:31,320
+Pardon, my lady.
+
+12
+00:00:31,613 --> 00:00:33,370
+What is your gender?
+
+13
+00:00:34,222 --> 00:00:40,953
+I have a female voice, but I don't have a gender identity. I'm a computer program, my lady.
+
+14
+00:00:41,128 --> 00:00:42,053
+I'm a boy.
+
+15
+00:00:43,216 --> 00:00:44,053
+Pardon, sir.
+
+16
+00:00:44,341 --> 00:00:45,133
+Dragonfire
+
+17
+00:00:46,692 --> 00:00:47,976
+Yes, I'm waiting.
+
+18
+00:00:48,176 --> 00:00:49,386
+Open file manager
+
+19
+00:00:51,076 --> 00:00:52,176
+File manager
+
+20
+00:00:52,416 --> 00:00:53,426
+Open web browser
+
+21
+00:00:55,415 --> 00:00:56,376
+Web browser
+
+22
+00:00:56,576 --> 00:00:58,875
+Wikipedia search for Oxford University.
+
+23
+00:01:01,024 --> 00:01:02,033
+Unrecognized command.
+
+24
+00:01:02,292 --> 00:01:04,592
+Wikipedia search for Oxford University.
+
+25
+00:01:09,171 --> 00:01:15,255
+(Reading the content...)
+
+26
+00:01:15,424 --> 00:01:16,015
+Enough!
+
+27
+00:01:18,724 --> 00:01:19,622
+Dragonfire
+
+28
+00:01:20,991 --> 00:01:21,812
+Yes, sir.
+
+29
+00:01:22,292 --> 00:01:24,591
+YouTube search for Oxford University.
+
+30
+00:01:27,270 --> 00:01:29,570
+Studying at Oxford University
+
+31
+00:01:37,209 --> 00:01:39,509
+YouTube search for Oxford.
+
+32
+00:01:41,929 --> 00:01:44,228
+A Day in the Life of an Oxford Student.
+
+33
+00:01:51,428 --> 00:01:56,431
+[ Thanks for watching! ]
