@@ -30,8 +30,18 @@
     <![endif]-->
 
 	<!-- videojs -->
-	<link href="http://vjs.zencdn.net/c/video-js.css" rel="stylesheet">
-	<script src="http://vjs.zencdn.net/c/video.js"></script>
+	<link href="http://vjs.zencdn.net/4.12/video-js.css" rel="stylesheet">
+	<script src="http://vjs.zencdn.net/4.12/video.js"></script>
+
+	<style type="text/css">
+	  .vjs-default-skin .vjs-play-progress,
+	  .vjs-default-skin .vjs-volume-level { background-color: #a00012 }
+
+	  .vjs-default-skin .vjs-control-bar,
+	  .vjs-default-skin .vjs-big-play-button { background: rgba(102,0,0,0.7) }
+	  .vjs-default-skin .vjs-slider { background: rgba(102,0,0,0.2333333333333333) }
+
+	</style>
 
 </head>
 
@@ -92,25 +102,25 @@
     <!-- About Section -->
     <section id="about" class="container content-section text-center">
         <div class="row">
-            <div class="col-lg-10 col-lg-offset-1">
+            <div class="col-lg-10 col-lg-offset-1" id="divcolvideojs">
 				<h2>About The Project</h2>
 				
 				<!-- videojs -->
-				<video id="example_video_1" class="video-js vjs-default-skin" controls preload="none" poster="img/0000.png" data-setup="{}">
+				<video id="example_video_1" class="video-js vjs-default-skin vjs-big-play-centered" controls preload="none" poster="img/0000.png" data-setup="{}">
 					<source src="video/dragon-helmet.mp4" type='video/mp4' />
 					<track kind="captions" src="captions.vtt" srclang="en" label="English" />
 				</video>
 
 				<script type="text/javascript">
 				  // Once the video is ready
-				  _V_("example_video_1").ready(function(){
+				  videojs("example_video_1").ready(function(){
 
 					var myPlayer = this;    // Store the video object
 					var aspectRatio = 9/16; // Make up an aspect ratio
 
 					function resizeVideoJS(){
 					  // Get the parent element's actual width
-					  var width = document.getElementById(myPlayer.id).parentElement.offsetWidth;
+					  var width = document.getElementById("divcolvideojs").offsetWidth;
 					  // Set width to fill parent element, Set height
 					  myPlayer.width(width).height( width * aspectRatio );
 					}
