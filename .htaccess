@@ -1,0 +1,2 @@
+RewriteEngine	On
+RewriteRule    elder-dragon	elder-dragon.html
