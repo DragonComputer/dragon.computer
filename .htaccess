@@ -1,2 +1,4 @@
 RewriteEngine	On
 RewriteRule    elder-dragon	elder-dragon.html
+RewriteRule	onedragon	onedragon.html
+RewriteRule	dragonbook	dragonbook.html
