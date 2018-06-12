@@ -376,3 +376,14 @@ body {
 .dropdown-menu {
 	background-color: #000;
 }
+
+#dragonfire_app {
+    width:20vw;
+    right:2vw;
+    bottom:-4vh;
+    position:fixed;
+    -ms-transform: rotate(-10deg); /* IE 9 */
+    -webkit-transform: rotate(-10deg); /* Safari 3-8 */
+    -moz-transform: rotate(-10deg); /* Firefox */
+    transform: rotate(-10deg);
+}
