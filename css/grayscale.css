@@ -387,3 +387,11 @@ body {
     -moz-transform: rotate(-10deg); /* Firefox */
     transform: rotate(-10deg);
 }
+
+p.long-text, li {
+    text-align: justify;
+}
+
+p.intro-text {
+    font-style: italic;
+}
